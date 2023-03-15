@@ -1,0 +1,215 @@
+:root {
+	--primary-light: #fefefe;
+	--secondary-light: #e5e7eb;
+	/* --primary-dark: #1f2937; */
+}
+html,
+body {
+	background-color: #004225 !important;
+}
+.container {
+	min-height: 100vh;
+	min-width: 100vw;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+/* Header */
+.headerContainer {
+	height: 10vh;
+	width: 100%;
+}
+.links {
+}
+.link__item {
+	margin: 1rem;
+	color: white;
+	font-size: 1.1rem;
+}
+.active {
+	border-bottom: 3px solid white;
+}
+/* Main */
+.mainContainer {
+	height: 85vh;
+	width: 100vw;
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
+}
+/* Footer */
+.footerContainer {
+	height: 2vh;
+	margin: 10px 0;
+	width: 100%;
+	/* bottom: 0; 
+	position: absolute; */
+	color: var(--primary-light);
+	text-shadow: rgba(0, 0, 0, 0.24) 0px 10px 8px;
+}
+.footer__link {
+	margin-right: 0.25rem;
+	color: var(--primary-light);
+}
+/* Home Page */
+.homeContainer {
+	height: 100%;
+	width: 100%;
+	background-image: url("./img/home_image.jpg");
+	background-size: cover;
+}
+.home__header,
+.home__location {
+	background-color: #004225;
+	color: white;
+	text-align: center;
+}
+.home__header {
+	width: 90%;
+	position: absolute;
+	top: 25%;
+	left: 5%;
+	border-radius: 0.5rem;
+	font-size: 30px;
+}
+/* Food Page */
+.foodContainer {
+	contain: content;
+	overflow: auto;
+}
+.appetizersHeader,
+.entreeHeader {
+	margin: 1rem 0 0.5rem 0;
+	color: white;
+	font-size: 2em;
+	text-align: center;
+}
+.appetizersContainer {
+}
+.foodCard {
+	height: 10rem;
+	width: 10rem;
+	margin: 0.5rem;
+}
+.foodBody {
+	text-align: center;
+}
+.foodTitle {
+	font-weight: bold;
+}
+.foodDescription {
+	font-style: italic;
+	margin-bottom: 8px;
+}
+.foodPrice {
+}
+@media screen and (max-width: 480px) {
+	.link__item {
+		margin: 0 1rem;
+		font-size: 1.15rem;
+	}
+	.active {
+		border-bottom: 3px solid white;
+	}
+	.footerContainer {
+		margin: 14px 0;
+	}
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	.mainContainer {
+		border-top: 10px solid white;
+		border-bottom: 10px solid white;
+	}
+	.link__item {
+		margin: 0rem 2rem;
+		font-size: 2rem;
+	}
+	.active {
+		border-bottom: 3px solid white;
+	}
+	.home__header {
+		width: 60%;
+		position: absolute;
+		top: 25%;
+		left: 15%;
+		border-radius: 0.5rem;
+		font-size: 24px;
+	}
+	.footerContainer {
+		margin: 24px 0;
+		font-size: 20px;
+	}
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+	.mainContainer {
+		border-top: 15px solid white;
+		border-bottom: 15px solid white;
+	}
+	.link__item {
+		margin: 0rem 1rem;
+		font-size: 2rem;
+	}
+	.active {
+		border-bottom: 5px solid white;
+	}
+	.home__header {
+		width: 70%;
+		position: absolute;
+		top: 25%;
+		left: 15%;
+		border-radius: 0.5rem;
+		font-size: 48px;
+	}
+	.footerContainer {
+		margin: 20px 0;
+		font-size: 20px;
+	}
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+	.mainContainer {
+		border-top: 15px solid white;
+		border-bottom: 15px solid white;
+	}
+	.link__item {
+		margin: 0rem 1rem;
+		font-size: 2rem;
+	}
+	.active {
+		border-bottom: 5px solid white;
+	}
+	.home__header {
+		width: 50%;
+		position: absolute;
+		top: 25%;
+		left: 25%;
+		border-radius: 0.5rem;
+		font-size: 48px;
+	}
+	.footerContainer {
+		margin: 20px 0;
+		font-size: 20px;
+	}
+}
+@media screen and (min-width: 1201px) {
+	.mainContainer {
+		border-top: 15px solid white;
+		border-bottom: 15px solid white;
+	}
+	.link__item {
+		margin: 0rem 1rem;
+		font-size: 2.5rem;
+	}
+	.active {
+		border-bottom: 5px solid white;
+	}
+	.home__header {
+		width: 50%;
+		position: absolute;
+		top: 25%;
+		left: 25%;
+		border-radius: 0.5rem;
+		font-size: 48px;
+	}
+	.footerContainer {
+		margin: 20px 0;
+		font-size: 20px;
+	}
+}
