@@ -11,8 +11,8 @@ Create code into module files to use import / export
 Challenged myself to build responsive design via CSS instead of relying on Bootstrap 5.3a
 
 ## ToDo:
--Add About page
--Style better?
+- Add About page
+- Style better?
  
 ## Assignment
 1) Start the project the same way you began the webpack tutorial project.
