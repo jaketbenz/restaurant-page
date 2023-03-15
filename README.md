@@ -1,7 +1,7 @@
 # Restaurant
 The Odin Project's Restaurant Page Project
 
-
+[Live Site](https://restaurant.jakebenz.dev/)
 
 Created with HTML, CSS, JS, Bootsrap, and Webpack.
 
