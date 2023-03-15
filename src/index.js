@@ -126,5 +126,4 @@ const createPage = () => {
 	setActive(document.querySelector(".link__item"));
 	loadHome();
 };
-
 createPage();

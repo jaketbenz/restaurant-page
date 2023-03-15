@@ -24,6 +24,7 @@ body {
 	margin: 1rem;
 	color: white;
 	font-size: 1.1rem;
+	cursor: pointer;
 }
 .active {
 	border-bottom: 3px solid white;
@@ -34,6 +35,8 @@ body {
 	width: 100vw;
 	border-top: 5px solid white;
 	border-bottom: 5px solid white;
+	background-image: url("./img/home_image.jpg");
+	background-size: cover;
 }
 /* Footer */
 .footerContainer {
@@ -53,8 +56,6 @@ body {
 .homeContainer {
 	height: 100%;
 	width: 100%;
-	background-image: url("./img/home_image.jpg");
-	background-size: cover;
 }
 .home__header,
 .home__location {
@@ -72,20 +73,38 @@ body {
 }
 /* Food Page */
 .foodContainer {
+	width: 100%;
 	contain: content;
 	overflow: auto;
 }
 .appetizersHeader,
-.entreeHeader {
+.entreeHeader,
+.sandwichHeader,
+.sidesHeader,
+.dessertsHeader {
+	width: 50%;
+	position: relative;
+	left: 25%;
 	margin: 1rem 0 0.5rem 0;
+	padding: 0.5rem;
 	color: white;
+	background-color: #004225;
+	border-radius: 0.5rem;
 	font-size: 2em;
 	text-align: center;
 }
 .appetizersContainer {
 }
+.entreeContainer {
+}
+.sandwichContainer {
+}
+.sidesContainer {
+}
+.dessertsContainer {
+}
 .foodCard {
-	height: 10rem;
+	height: 15rem;
 	width: 10rem;
 	margin: 0.5rem;
 }
@@ -101,6 +120,56 @@ body {
 }
 .foodPrice {
 }
+.sideCard {
+	height: 4rem;
+	width: 10rem;
+	margin: 0.5rem;
+}
+
+/* Beer Page */
+.beerContainer {
+	width: 100%;
+	contain: content;
+	overflow: auto;
+}
+.tapHeader,
+.bottleHeader,
+.wineHeader {
+	width: 50%;
+	position: relative;
+	left: 25%;
+	margin: 1rem 0 0.5rem 0;
+	color: white;
+	background-color: #004225;
+	border-radius: 0.5rem;
+	font-size: 2em;
+	text-align: center;
+}
+.beerCard {
+	height: 10rem;
+	width: 10rem;
+	margin: 0.5rem;
+}
+.beerBody {
+	text-align: center;
+}
+.beerTitle {
+	font-weight: bold;
+}
+.beerType {
+}
+.beerDescription {
+	font-style: italic;
+	margin-bottom: 8px;
+}
+.beerPercentage {
+}
+.bottleCard {
+	height: 4rem;
+	width: 10rem;
+	margin: 0.5rem;
+}
+
 @media screen and (max-width: 480px) {
 	.link__item {
 		margin: 0 1rem;
