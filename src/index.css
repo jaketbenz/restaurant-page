@@ -15,7 +15,7 @@ body {
 }
 /* Header */
 .headerContainer {
-	height: 10vh;
+	height: 5vh;
 	width: 100%;
 }
 .links {
@@ -31,7 +31,7 @@ body {
 }
 /* Main */
 .mainContainer {
-	height: 85vh;
+	height: 90vh;
 	width: 100vw;
 	border-top: 5px solid white;
 	border-bottom: 5px solid white;
