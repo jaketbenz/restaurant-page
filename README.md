@@ -6,9 +6,9 @@ The Odin Project's Restaurant Page Project
 Created with HTML, CSS, JS, Bootsrap, and Webpack.
 
 ## What I learned / attempted:
-Formatted code to AirBnB style guide and BEM style guide
-Create code into module files to use import / export
-Challenged myself to build responsive design via CSS instead of relying on Bootstrap 5.3a
+- Formatted code to AirBnB style guide and BEM style guide
+- Create module files to use import / export
+- Challenged myself to build responsive design via CSS instead of relying on Bootstrap 5.3a
 
 ## ToDo:
 - Add About page
