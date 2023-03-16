@@ -2,15 +2,11 @@ const createHome = () => {
 	const homeContainer = document.createElement("div");
 	homeContainer.className = "homeContainer";
 
-	// const homeImage = document.createElement("img");
-	// homeImage.className = "img-fluid";
-	// homeImage.src = "./img/home_image.jpg";
-
 	const homeHeader = document.createElement("h1");
 	homeHeader.className = "home__header py-2";
 	homeHeader.textContent = "Jakub's German Beer Hall";
+	// homeHeader.textContent = "JAKUB'S GERMAN BEER HALL";
 
-	// homeContainer.appendChild(homeImage);
 	homeContainer.appendChild(homeHeader);
 
 	return homeContainer;

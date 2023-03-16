@@ -1,3 +1,10 @@
+/* @font-face {
+	font-family: "NeueZierSchrift";
+	src: url("./NeueZierSchrift.ttf") format("truetype");
+	font-weight: 100;
+	font-style: normal;
+} */
+
 :root {
 	--primary-light: #fefefe;
 	--secondary-light: #e5e7eb;
@@ -31,7 +38,7 @@ body {
 }
 /* Main */
 .mainContainer {
-	height: 90vh;
+	min-height: 90vh;
 	width: 100vw;
 	border-top: 5px solid white;
 	border-bottom: 5px solid white;
@@ -40,8 +47,8 @@ body {
 }
 /* Footer */
 .footerContainer {
-	height: 5vh;
-	margin: 10px 0;
+	height: 2vh;
+	margin: 1rem 0;
 	width: 100%;
 	/* bottom: 0; 
 	position: absolute; */
@@ -57,19 +64,18 @@ body {
 	height: 100%;
 	width: 100%;
 }
-.home__header,
-.home__location {
-	background-color: #004225;
-	color: white;
-	text-align: center;
-}
 .home__header {
 	width: 90%;
 	position: absolute;
 	top: 25%;
 	left: 5%;
+	background-color: #004225;
+	color: white;
 	border-radius: 0.5rem;
-	font-size: 30px;
+	/* font-family: "NeueZierSchrift" !important; */
+	font-size: 2rem;
+	letter-spacing: 0.25rem;
+	text-align: center;
 }
 /* Food Page */
 .foodContainer {
@@ -93,20 +99,31 @@ body {
 	font-size: 2em;
 	text-align: center;
 }
-.appetizersContainer {
-}
-.entreeContainer {
-}
-.sandwichContainer {
-}
-.sidesContainer {
-}
-.dessertsContainer {
-}
+/* .appetizersHeader {
+} */
+/* .appetizersContainer {
+} */
+/* .entreeHeader {
+} */
+/* .entreeContainer {
+} */
+/* .sandwichHeader {
+} */
+/* .sandwichContainer {
+} */
+/* .sidesHeader {
+} */
+/* .sidesContainer {
+} */
+/* .dessertsHeader {
+} */
+/* .dessertsContainer {
+} */
 .foodCard {
 	height: 15rem;
 	width: 10rem;
 	margin: 0.5rem;
+	background-color: rgba(256, 256, 256, 0.8);
 }
 .foodBody {
 	text-align: center;
@@ -118,12 +135,13 @@ body {
 	font-style: italic;
 	margin-bottom: 8px;
 }
-.foodPrice {
-}
+/* .foodPrice {
+} */
 .sideCard {
 	height: 4rem;
 	width: 10rem;
 	margin: 0.5rem;
+	background-color: rgba(256, 256, 256, 0.8);
 }
 
 /* Beer Page */
@@ -149,6 +167,7 @@ body {
 	height: 10rem;
 	width: 10rem;
 	margin: 0.5rem;
+	background-color: rgba(256, 256, 256, 0.8);
 }
 .beerBody {
 	text-align: center;
@@ -168,18 +187,24 @@ body {
 	height: 4rem;
 	width: 10rem;
 	margin: 0.5rem;
+	background-color: rgba(256, 256, 256, 0.8);
 }
 
 @media screen and (max-width: 480px) {
 	.link__item {
 		margin: 0 1rem;
-		font-size: 1.15rem;
+		font-size: 1.1rem;
 	}
 	.active {
 		border-bottom: 3px solid white;
 	}
 	.footerContainer {
-		margin: 14px 0;
+		margin: 0.75rem 0;
+	}
+	.home__header {
+		width: 100%;
+		left: 0;
+		font-size: 1.5rem;
 	}
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -198,12 +223,12 @@ body {
 		width: 60%;
 		position: absolute;
 		top: 25%;
-		left: 15%;
+		left: 20%;
 		border-radius: 0.5rem;
-		font-size: 24px;
+		font-size: 1.5rem;
 	}
 	.footerContainer {
-		margin: 24px 0;
+		margin: 1rem 0;
 		font-size: 20px;
 	}
 }
@@ -228,8 +253,14 @@ body {
 		font-size: 48px;
 	}
 	.footerContainer {
-		margin: 20px 0;
-		font-size: 20px;
+		margin: 1rem 0;
+		font-size: 1.5rem;
+	}
+	.foodContainer{
+		width: 80%;
+	}
+	.beerContainer{
+		width: 80%;
 	}
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
@@ -256,6 +287,12 @@ body {
 		margin: 20px 0;
 		font-size: 20px;
 	}
+	.foodContainer{
+		width: 70%;
+	}
+	.beerContainer{
+		width: 70%;
+	}
 }
 @media screen and (min-width: 1201px) {
 	.mainContainer {
@@ -280,5 +317,11 @@ body {
 	.footerContainer {
 		margin: 20px 0;
 		font-size: 20px;
+	}
+	.foodContainer{
+		width: 60%;
+	}
+	.beerContainer{
+		width: 60%;
 	}
 }

@@ -83,7 +83,7 @@ const createMain = () => {
 	const mainContainer = document.createElement("main");
 	mainContainer.className =
 		// "mainContainer d-flex justify-content-center align-items-center";
-		"mainContainer d-flex"
+		"mainContainer d-flex justify-content-center"
 
 	return mainContainer;
 };
