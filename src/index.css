@@ -109,11 +109,11 @@ body {
 	position: relative;
 	left: 25%;
 	margin: 1rem 0 0.5rem 0;
-	padding: 0.5rem;
+	padding: 1rem;
 	color: white;
 	background-color: #004225;
 	border-radius: 0.5rem;
-	font-family: "BobbyJones";
+	font-family: "RundeckTexture";
 	font-size: 2em;
 	text-align: center;
 }
@@ -176,10 +176,11 @@ body {
 	position: relative;
 	left: 25%;
 	margin: 1rem 0 0.5rem 0;
+	padding: 1rem;
 	color: white;
 	background-color: #004225;
 	border-radius: 0.5rem;
-	font-family: "BobbyJones";
+	font-family: "RundeckTexture";
 	font-size: 2em;
 	text-align: center;
 }
@@ -225,7 +226,7 @@ body {
 }
 .about__header {
 	width: 100%;
-	font-family: "BobbyJones";
+	font-family: "RundeckTexture";
 	font-size: 3rem;
 	text-align: center;
 }
@@ -245,6 +246,7 @@ body {
 }
 .about__text {
 	margin: 0.5rem;
+	font-family: sans-serif;
 	font-weight: 700;
 }
 
